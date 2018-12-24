@@ -1,0 +1,19 @@
+STEPS TO STOP PROCESSES
+
+•	Flask
+
+            deactivate: Master node
+
+•	Thrift
+
+Ctrl + Z: Master node
+
+•	Hbase
+
+exit: Master node
+stop-hbase.sh: Master node
+
+•	Hadoop
+
+stop-all.sh: Master and slave node
+

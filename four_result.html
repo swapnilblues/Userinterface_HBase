@@ -1,0 +1,22 @@
+<html>
+<body>
+<h1 align="center">CNVDOK TABLE</h1>
+
+<table border = 1>
+         {% for key, value in mes.items() %}
+<tr>
+	<th>Key</th>
+	<th>ID</th>
+	<th>Gene</th>
+	<th>Disease</th>
+</tr>	
+<tr>
+<td> {{ key }} </th>
+<td> {{ value[0] }} </td>
+<td> {{ value[1] }} </td>
+<td> {{ value[2] }} </td>
+</tr>
+         {% endfor %}
+</table>
+</body>
+</html>

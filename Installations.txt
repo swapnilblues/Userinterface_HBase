@@ -1,0 +1,40 @@
+SOFTWARE INSTALLATION PROCEDURES
+
+•	Apache Thrift
+
+1.	Install dependencies using the following command
+sudo apt-get install libboost-devlibboost-test-devlibboost-program-options-devlibevent-devautomakelibtool flex bison pkg-config g++ libssl-dev
+2.	Download tar.gz archive from the this link, extract it in your home directory using this command
+tar -xvzf thrift-0.8.0.tar.gz  
+3.	Change into the Thrift installation directory(the one extracted) and carry on the following command
+./configure  
+4.	Run the following command within Thrift installation directory
+
+make
+5.	After that carry on the following command
+sudo make install  
+6.	To verify Thrift has installed properly, use the following command
+thrift -version   
+
+•	Flask	
+Let’s start by creating a virtual environment -
+cd~
+sudoapt-getinstallpython-virtualenv
+sudoapt-getinstallpython-pip
+To check if virtualenv is correctly installed, type -
+virtualenv--version
+At the time this post was written, the output was -
+1.11.4
+Now let’s make a directory flask-application where we will store our project.
+mkdirflask-application
+cdflask-application
+It time to create to virtual environment flask-env, where we will install flask.
+virtualenvflask-env
+You will see the following output on the terminal -
+Newpythonexecutableinflask-env/bin/python
+Installingsetuptools,pip...done.
+We have successfully created our virtual environment, now let’s activate it using the command below -
+sourceflask-env/bin/activate
+You will now notice that on left side of your command prompt, (flask-env) appears. So now, when you install a package, it will only be accessible from the virtual environment. When you exit the virtual environment, you can no longer access any package you install inside the virtual environment. It is time to install flask. We will use pip to install the package -  
+pipinstallFlask
+

@@ -1,0 +1,19 @@
+STEPS TO START PROCESSES
+
+•	Hadoop
+
+start-dfs.sh : Master and slave node
+start-yarn.sh : Master node
+
+•	HBase
+
+start-hbase.sh : Master node
+hbase shell: Master node
+
+•	Thrift
+
+hbase thrift start : Master node
+
+•	Flask
+virtualenv Venv : Master node
+.Venv/bin/activate : Master node

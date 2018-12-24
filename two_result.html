@@ -1,0 +1,40 @@
+<html>
+<body>
+<h1 align="center">CNVDOK TABLE</h1>
+<h2>Chromosome Number:{{ chno }} </h1><br>
+<h2>Coordinate:{{ mins }} to {{ maxs }}</h1>
+
+	
+<table border = 1>
+         {% for key, value in mes.items() %}
+<tr>
+	<th>Key</th>
+	<th>ID</th>
+	<th>Species</th>
+	
+	<th>Start_Index</th>
+	<th>End_Index</th>
+	<th>Variant</th>
+	<th>Gene</th>
+	<th>Disease</th>
+	<th>Method</th>
+</tr>	
+<tr>
+<td> {{ key }} </th>
+<td> {{ value[0] }} </td>
+<td> {{ value[1] }} </td>
+
+<td> {{ value[3] }} </td>
+<td> {{ value[4] }} </td>
+<td> {{ value[5] }} </td>
+<td> {{ value[6] }} </td>
+<td> {{ value[7] }} </td>
+<td> {{ value[8] }} </td>
+</tr>
+
+         {% endfor %}
+</table>
+
+
+</body>
+</html>

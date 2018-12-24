@@ -1,0 +1,14 @@
+<html>
+<body>
+<form name="f" method="post" action="http://0.0.0.0:5001/gene">
+
+<!--<input type="text" name="gene" placeholder="Gene Name">-->
+<select name="gene">
+    {% for key in mes %}
+<option value="{{ key }}">{{ key }}</option>
+    {% endfor %}
+</select>
+<input type="text" name="chno" readonly value="{{ chno }}">
+<input type="submit" value="Submit">
+</body>
+</html>
