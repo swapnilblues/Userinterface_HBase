@@ -2,10 +2,10 @@
 In this project a user-interface is created in a web browser to manage the Hbase Database.
 The project is compatible with Ubuntu 16.04.
 For the codes to run successfully you need the following softwares and frameworks:
-1. Hadoop - Installation steps provided in Hadoop_Installation.ppt
+1. Hadoop - Installation steps provided in Hadoop_Installation.pdf
 2. Hbase
-3. Apache Thrift - Installation steps provided in Installations.ppt
-4. Flask Server - Installation steps provided in Installations.ppt
+3. Apache Thrift - Installation steps provided in Installations.txt
+4. Flask Server - Installation steps provided in Installations.txt
 
 After successfully installing the the above softwares and frameworks, start all the process - Steps mentioned in Start_processes.txt
 Now copy all the .html and .py files in the Flask folder and run the python script.
